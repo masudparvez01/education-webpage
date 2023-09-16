@@ -353,7 +353,7 @@ nav {
 footer {
   background: #f3f3f3;
   margin-top: 200px;
-  height: 521px;
+  height: 450px;
 }
 .footer-area {
   display: flex;
@@ -476,9 +476,9 @@ footer {
   transform: scale(1.1);
 }
 .copyright {
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
-  color: #000;
+  color: #5e5e5e85;
   font-size: 25px;
   font-weight: 400;
 }
