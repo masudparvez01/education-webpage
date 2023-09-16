@@ -50,6 +50,11 @@ nav {
   color: #000;
   font-size: 18px;
   font-weight: 600;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.main-nav ul li a:hover {
+  color: #32900a;
 }
 .right-nav ul {
   display: flex;
@@ -67,6 +72,7 @@ nav {
   font-weight: 600;
   line-height: normal;
   outline: none;
+  cursor: pointer;
 }
 .right-nav ul li a {
   background-color: #000;
@@ -75,6 +81,11 @@ nav {
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.right-nav ul li a:hover {
+  background-color: #424040;
 }
 /* Navigation Bar End */
 
@@ -113,6 +124,7 @@ nav {
   border-radius: 5px;
   font-family: "Sofia Sans", sans-serif;
   padding: 8.5px 18px;
+  cursor: pointer;
 }
 .hero-description select option {
   font-family: "Sofia Sans", sans-serif;
@@ -125,6 +137,11 @@ nav {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.btn-apply:hover {
+  background-color: #046319f5;
 }
 .hero-image img {
   width: 400px;
@@ -134,8 +151,6 @@ nav {
 
 /* Services Section Start */
 
-.services {
-}
 .services h2 {
   color: #000;
   text-align: center;
@@ -164,6 +179,11 @@ nav {
   justify-content: center;
   border: 0.5px solid #a9a8a8;
   margin-top: 80px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.main-courses .single-course:hover {
+  box-shadow: 5px 5px 10px #0000003f;
 }
 .main-courses .single-course img {
   width: 80px;
@@ -181,11 +201,19 @@ nav {
   padding: 10px;
 }
 .subjects .single-sub {
+  height: 200px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 80px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.subjects .single-sub:hover {
+  transform: scale(1.06);
 }
 .subjects .single-sub h3 {
   color: #000;
@@ -211,12 +239,16 @@ nav {
   font-weight: 600;
   border-radius: 5px;
   background: #08a82bf5;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.learn-more:hover {
+  background: #046319f5;
 }
 /* Services Section End */
 
 /* Post Check Quality Section Start */
-.post-check {
-}
+
 .post-check h2 {
   color: #000;
   text-align: center;
@@ -241,6 +273,21 @@ nav {
   height: 655px;
   border-radius: 20px;
   background: #f3f3f3;
+  transition: 0.2s;
+}
+/* Hover Effects */
+.post-check .all-post .single-post:hover {
+  box-shadow: 5px 5px 20px #636161a4;
+  cursor: pointer;
+}
+.post-check .all-post .single-post:hover h3 {
+  color: black;
+}
+.post-check .all-post .single-post:hover p {
+  color: black;
+}
+.post-check .all-post .single-post:hover a {
+  background-color: black;
 }
 .post-check .all-post .single-post img {
   width: 413.12px;
@@ -261,6 +308,7 @@ nav {
   font-weight: 600;
   padding-left: 35px;
   padding-top: 50px;
+  transition: 0.2s;
 }
 .post-check .all-post .single-post p {
   color: #535353;
@@ -278,6 +326,7 @@ nav {
   padding: 10px 30px;
   text-decoration: none;
   margin-left: 35px;
+  transition: 0.2s;
 }
 .blue-color {
   color: #0079bd;
@@ -315,8 +364,6 @@ footer {
 .part-1 img {
   width: 200px;
 }
-.part-1 ul {
-}
 .part-1 ul li {
   list-style: none;
   color: #000;
@@ -335,8 +382,6 @@ footer {
   font-size: 30px;
   font-weight: 700;
 }
-.part-2 ul {
-}
 .part-2 ul li {
   list-style: none;
   color: #000;
@@ -344,6 +389,14 @@ footer {
   font-weight: 400;
   margin-top: 25px;
   margin-right: 109px;
+  width: 170px;
+}
+.part-2 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.part-2 ul li a:hover {
+  text-decoration: underline;
 }
 
 .part-3 {
@@ -354,15 +407,20 @@ footer {
   font-size: 30px;
   font-weight: 600;
 }
-.part-3 ul {
-}
 .part-3 ul li {
   list-style: none;
   color: #000;
   font-size: 25px;
   font-weight: 400;
   margin-top: 25px;
-  margin-right: 107px;
+  margin-right: 100px;
+}
+.part-3 ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.part-3 ul li a:hover {
+  text-decoration: underline;
 }
 
 .part-4 {
@@ -385,12 +443,19 @@ footer {
   font-weight: 600;
   width: 200px;
 }
-.part-4 span {
+.part-4 a {
+  text-decoration: none;
   color: #000;
   font-family: Sofia Sans;
   font-size: 30px;
   font-weight: 600;
+  transition: 0.2s;
 }
+/* Hover Effects */
+.part-4 a:hover {
+  transform: scale(1.1);
+}
+
 .part-4 h4 {
   color: #000;
   font-size: 29px;
@@ -405,8 +470,11 @@ footer {
   font-size: 60px;
   color: #000;
   margin-top: 25px;
+  transition: 0.2s;
 }
-
+.part-4 .social-icons a:hover {
+  transform: scale(1.1);
+}
 .copyright {
   text-align: center;
   margin-top: 30px;
